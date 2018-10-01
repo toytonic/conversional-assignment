@@ -1,0 +1,138 @@
+{
+	"section_1": {
+		"Content": {
+			"title": "first section",
+			"format": "component",
+			"type": "ContentGrid",
+			"value": ""
+		},
+		"Children": {
+			"GridElements": {
+				"Content": {
+					"title": "overview",
+					"format": "component",
+					"type": "ContentGridElements",
+					"value": ""
+				},
+				"Children": {
+					"spot_1": {
+						"Content": {
+							"title": "preview surface",
+							"type": "ImageBox",
+							"format": "component",
+							"value": {
+								"title": "Dull or glossy?",
+								"teaser": "Learn the benefits of...",
+								"link": "read more",
+								"background": "https://roomtailors.de/files/filestore/file/1338/previewdull.jpg"
+							}
+						}
+					},
+					"spot_2": {
+						"Content": {
+							"title": "preview faces",
+							"type": "ImageBox",
+							"format": "component",
+							"value": {
+								"title": "Faces for happy folks?",
+								"teaser": "The plus points of light faces are...",
+								"link": "read more",
+								"background": "https://roomtailors.de/files/filestore/file/1337/previewlight.jpg"
+							}
+						}
+					},
+					"spot_3": {
+						"Content": {
+							"title": "call to action",
+							"type": "ButtonBox",
+							"format": "component",
+							"value": {
+								"title": "Feel the surface",
+								"link": "Find studio",
+								"url": "https://www.somewhere.de/studios",
+								"background": "https://roomtailors.de/files/filestore/file/1335/previewmaterials.jpg"
+							}
+						}
+					},
+					"spot_4": {
+						"Content": {
+							"title": "walls preview",
+							"type": "ImageBox",
+							"format": "component",
+							"value": {
+								"title": "Ornamental walls",
+								"teaser": "Tiles? You don't have to, there are...",
+								"link": "read more",
+								"background": "https://roomtailors.de/files/filestore/file/1336/previewornamented.jpg"
+							}
+						}
+					}
+				}
+			},
+			"GridDetails": {
+				"Content": {
+					"title": "modal content",
+					"format": "component",
+					"type": "ContentGridOverlay",
+					"value": ""
+				},
+				"Children": {
+					"spot_1": {
+						"Content": {
+							"title": "Surfaces details",
+							"type": "ImageList",
+							"format": "component",
+							"value": {
+								"headline": "Surfaces",
+								"subheadline": "This decision is not just about the look but also about the feeling",
+								"list": [
+									"quality will especially reflect in the haptics, so consider the touch in your decision", 
+									"some materials appear more massive than others, so stone is better used in large places", 
+									"light colors induce a feeling of lightness and make the kitchen appear more airy", 
+									"eye-catching accessories, tiles, materials or wall colors will shine even more when used next to white faces"
+								],
+								"image": "https://roomtailors.de/files/filestore/file/1339/detailssurface.jpg"
+							}
+						}
+					},
+					"spot_2": {
+						"Content": {
+							"title": "Faces details",
+							"type": "ImageList",
+							"format": "component",
+							"value": {
+								"headline": "Light Faces",
+								"subheadline": "Light faces are unobtrusive and appear friendly and inviting",
+								"list": [
+									"bright faces reflect more light, which is especially useful in small rooms with limited daylight", 
+									"unobtrusive colors are easier to mix and combine with others", 
+									"light colors induce a feeling of lightness and make the kitche more airy", 
+									"eye-catching accessories, tiles, materials or wall colors will shine when used next to white faces"
+								],
+								"image": "https://roomtailors.de/files/filestore/file/1334/detailslight.jpg"
+							}
+						}
+					},
+					"spot_4": {
+						"Content": {
+							"title": "Wall details",
+							"type": "ImageList",
+							"format": "component",
+							"value": {
+								"headline": "Walls",
+								"subheadline": "There are a few wall covering techniques you should be aware of",
+								"list": [
+									"small non-rectangular tiles are the latest trend, inspired by London’s underground", 
+									"ornamental walls are uncommon and will give your kitchen a unique look", 
+									"colored tiles are less prone to dirt and splashes ", 
+									"when using plain colors, a strong contrast makes your kitchen more remarkable"
+								],
+								"image": "https://roomtailors.de/files/filestore/file/1340/detailswalls.jpg"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
